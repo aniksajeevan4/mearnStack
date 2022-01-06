@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculater.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="calculater">
+        <div class="output">
+            <textarea class="text" id="result" cols="50" rows="8"></textarea>
+
+        </div>
+        <div class="button">
+            <div>
+                <button type="submit"  onclick="clearBox()"> C </button>
+                <button type="submit" onclick="displaynum('/')" value="/"> / </button>
+                <button type="submit" onclick="displaynum('*')" value="*"> * </button>
+                <button type="submit" onclick="deletion('')" value="del"> del </button>
+
+            </div>
+
+
+            <div>
+                <button type="submit" id="seven" onclick="displaynum('7')" value="7"> 7 </button>
+                <button type="submit" id="eight" onclick="displaynum('8')" value="8"> 8</button>
+                <button type="submit" id="nine" onclick="displaynum('9')" value="9"> 9 </button>
+                <button type="submit" id="sub" onclick="displaynum('-')" value="-"> - </button>
+
+            </div>
+
+
+            <div>
+                <button type="submit" onclick="displaynum('4')"> 4 </button>
+                <button type="submit" onclick="displaynum('5')"> 5 </button>
+                <button type="submit" onclick="displaynum('6')"> 6 </button>
+                <button type="submit" onclick="displaynum('+')"> + </button>
+
+            </div>
+
+
+            <div>
+                <button type="submit" onclick="displaynum('1')"> 1 </button>
+                <button type="submit" onclick="displaynum('2')"> 2 </button>
+                <button type="submit" onclick="displaynum('3')"> 3 </button>
+                <button type="submit" onclick="displaynum('.')"> . </button>
+
+            </div>
+            <div>
+                <button type="submit" onclick="displaynum('')"> x2 </button>
+                <button type="submit" onclick="displaynum('0')"> 0 </button>
+                <button type="submit" onclick="displaynum('%')"> % </button>
+                <button type="submit" onclick="evaluateExpression()"> = </button>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

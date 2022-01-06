@@ -1,0 +1,19 @@
+.parent{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    background-color: crimson;
+    height: 530px;
+    border: solid black 3px;
+}
+.d1{
+    border: solid;
+}
+img{
+    width: 50%;
+    /* margin-left: 55px; */
+}

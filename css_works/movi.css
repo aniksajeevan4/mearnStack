@@ -1,0 +1,23 @@
+div{
+    background-color: rgb(14, 13, 13);
+    height:620px;
+    width: 19%;
+    float: left;
+    border: 1px solid rgb(14, 13, 13);
+    padding:5px;
+    color: rgb(245, 240, 240);
+   
+}
+#d{
+    background-color: rgb(14, 13, 13);
+    height: 19px;
+    width: 80%;
+    border: 1px solid rgb(241, 241, 241);
+    padding: 5px;
+    color: rgb(250, 248, 248);
+   
+}
+div img{
+    margin-left: 25%;
+    width: 35%;
+} 

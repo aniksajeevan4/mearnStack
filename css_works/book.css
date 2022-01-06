@@ -1,0 +1,17 @@
+div{
+    background-color: rgb(238, 222, 169);
+    height:500px;
+    width: 19%;
+    float: left;
+    border: 1px solid rgb(14, 13, 13);
+   
+}
+div h3{
+    text-align: center;
+}
+di h5{
+    text-align: center;
+}
+div strong{
+    margin-left: 25%;
+}

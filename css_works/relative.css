@@ -1,0 +1,37 @@
+
+.div{
+    background-color: rgb(12, 10, 10);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(./img/m4.jpg);
+}
+.col{
+    background-image:url(./img/m3.jpg);
+    width: 100px;
+    height: 100px;
+    border: solid 2px white;
+}
+.c1{
+    background-color: rgb(172, 170, 168);
+    position: absolute;
+}
+.c2{
+    background-color: white;
+    position: absolute;
+left: 100px;
+}
+.c3{
+    background-color: rgb(49, 21, 126);
+    position: absolute;
+left: 210px;
+}
+.c4{
+    background-color: rgb(6, 245, 18);
+    position: absolute;
+left: 310px;
+}
+body{
+    background-image: url(./img/download.png);
+    background-position:500px;
+}

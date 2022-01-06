@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(105, 78, 3);
+    background-color: rgb(3, 3, 3);
+    
+}
+.parent{
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.child{
+    background-color: rgb(3,3,3);
+    border: 1px solid rgb(105,78,3);
+width: 100%;
+height: 100%;
+}
+#d{
+margin-top: 30px;
+    background-color:rgb(105, 78, 3);
+    color: black;
+    margin-left: 15px ;
+    margin-right: 15px;
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+margin-left:0px;
+}
